@@ -34,6 +34,17 @@ export function fromNow(
   return Math.ceil(n / (1000 * 60 * 60 * 24))
 }
 
+export function getMonthDayDuration(
+  startDate: dayjs.ConfigType,
+  endDate?: dayjs.ConfigType,
+): string {
+  const start = dayjs(startDate)
+  const end = dayjs(endDate || Date.now())
+  const months = end.diff(start, 'month')
+  const days = end.diff(start.add(months, 'month'), 'day')
+  return `${months} 个月 ${days} 天`
+}
+
 export function getWeek(date: dayjs.ConfigType): string {
   const weeks = ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
   return weeks[dayjs(date).day()]

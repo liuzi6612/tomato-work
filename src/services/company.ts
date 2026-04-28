@@ -1,5 +1,5 @@
 import http from '@/utils/http'
-import { formatDate, fromNow } from '@/utils'
+import { formatDate, fromNow, getMonthDayDuration } from '@/utils'
 
 // 查询所有单位
 export async function serviceGetAllCompany(data?: object) {
@@ -8,6 +8,7 @@ export async function serviceGetAllCompany(data?: object) {
     item.startDate = formatDate(item.startDate)
     item.__amount__ = `￥${item.amount}`
     item.__jobDay__ = fromNow(item.startDate, item.endDate) + ' 天'
+    item.__jobMonthDay__ = getMonthDayDuration(item.startDate, item.endDate)
     if (item.endDate) {
       item.endDate = formatDate(item.endDate)
     }

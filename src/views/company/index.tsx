@@ -55,7 +55,13 @@ const CompanyPage = () => {
     {
       title: '在职天数',
       dataIndex: '__jobDay__',
-      width: 100,
+      width: 130,
+      render: (__jobDay__: string, record: any) => (
+        <div>
+          {__jobDay__}
+          <div>{record.__jobMonthDay__}</div>
+        </div>
+      ),
     },
     {
       title: '薪资',
