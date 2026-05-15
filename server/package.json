@@ -5,13 +5,13 @@
   "author": "xiejiahe",
   "private": true,
   "license": "MIT",
-  "homepage": "https://github.com/xjh22222228/tomato-work-server",
+  "homepage": "https://github.com/liuzi6612/tomato-work-server",
   "bugs": {
-    "url": "https://github.com/xjh22222228/tomato-work-server/issues"
+    "url": "https://github.com/liuzi6612/tomato-work-server/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjh22222228/tomato-work-server.git"
+    "url": "git+https://github.com/liuzi6612/tomato-work-server.git"
   },
   "scripts": {
     "pm2": "pm2 start ecosystem.config.cjs",

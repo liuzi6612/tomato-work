@@ -10,7 +10,7 @@ export default () => {
       <div>
         Copyright &copy; 2019-{currentYear} {CONFIG.title} -
         <a
-          href="https://github.com/xjh22222228"
+          href="https://github.com/liuzi6612"
           target="_blank"
           rel="noopener noreferrer"
         >

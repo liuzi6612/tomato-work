@@ -1,13 +1,13 @@
 {
   "name": "tomato-work",
   "version": "3.0.0",
-  "homepage": "https://github.com/xjh22222228/tomato-work",
+  "homepage": "https://github.com/liuzi6612/tomato-work",
   "bugs": {
-    "url": "https://github.com/xjh22222228/tomato-work/issues"
+    "url": "https://github.com/liuzi6612/tomato-work/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjh22222228/tomato-work.git"
+    "url": "git+https://github.com/liuzi6612/tomato-work.git"
   },
   "scripts": {
     "format": "npm run lint && prettier --write \"**/*.{ts,tsx,scss,css,jsx}\"",
@@ -22,15 +22,15 @@
     "*.{ts,tsx,scss,css,jsx}": "npm run format"
   },
   "dependencies": {
-    "@ant-design/icons": "^6.1.1",
+    "@ant-design/icons": "^6.2.3",
     "@number-flow/react": "^0.6.0",
     "@reduxjs/toolkit": "^2.11.2",
-    "@tailwindcss/postcss": "^4.2.4",
-    "@tailwindcss/vite": "^4.2.4",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/vite": "^4.3.0",
     "@toast-ui/editor": "^3.2.2",
     "ahooks": "^3.9.7",
-    "antd": "^6.3.6",
-    "axios": "^1.15.2",
+    "antd": "^6.4.2",
+    "axios": "^1.16.1",
     "blueimp-md5": "^2.19.0",
     "bytes": "^3.1.2",
     "classnames": "^2.5.1",
@@ -38,24 +38,24 @@
     "lodash": "^4.18.1",
     "nprogress": "^0.2.0",
     "query-string": "^9.3.1",
-    "react": "^19.2.5",
+    "react": "^19.2.6",
     "react-beautiful-dnd": "^13.1.1",
-    "react-dom": "^19.2.5",
+    "react-dom": "^19.2.6",
     "react-redux": "^9.2.0",
-    "react-router": "^7.14.2",
+    "react-router": "^7.15.1",
     "recharts": "^3.8.1",
     "redux": "^5.0.1",
     "redux-thunk": "^3.1.0",
     "sass": "^1.99.0",
-    "tailwindcss": "^4.2.4",
-    "vite-plugin-pwa": "^1.2.0",
-    "workbox-window": "^7.4.0"
+    "tailwindcss": "^4.3.0",
+    "vite-plugin-pwa": "^1.3.0",
+    "workbox-window": "^7.4.1"
   },
   "devDependencies": {
     "@types/blueimp-md5": "^2.18.2",
     "@types/bytes": "^3.1.5",
     "@types/lodash": "^4.17.24",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.8.0",
     "@types/nprogress": "^0.2.3",
     "@types/react": "^19.2.14",
     "@types/react-beautiful-dnd": "^13.1.8",
@@ -63,10 +63,10 @@
     "@types/react-redux": "^7.1.34",
     "@vitejs/plugin-react-refresh": "^1.3.6",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "oxlint": "^1.61.0",
+    "lint-staged": "^17.0.4",
+    "oxlint": "^1.64.0",
     "prettier": "^3.8.3",
     "typescript": "^6.0.3",
-    "vite": "^8.0.10"
+    "vite": "^8.0.13"
   }
 }

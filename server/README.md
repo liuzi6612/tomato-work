@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xjh22222228/tomato-work/main/public/logo.svg" width="150" />
+  <img src="https://raw.githubusercontent.com/liuzi6612/tomato-work/main/public/logo.svg" width="150" />
   <br />
   <b>Tomato Work 个人事务管理系统</b>
   <p align="center">
-    <a href="https://github.com/xjh22222228/tomato-work"><img alt="Server" src="https://img.shields.io/static/v1.svg?label=&message=Client&style=flat-square&color=e8883a"></a>
-    <img src="https://img.shields.io/github/license/xjh22222228/tomato-work-server" />
+    <a href="https://github.com/liuzi6612/tomato-work"><img alt="Server" src="https://img.shields.io/static/v1.svg?label=&message=Client&style=flat-square&color=e8883a"></a>
+    <img src="https://img.shields.io/github/license/liuzi6612/tomato-work-server" />
   </p>
 </p>
 
@@ -31,7 +31,7 @@ MySQL >= 8.0
 
 ```bash
 # Download
-git clone --depth=1 https://github.com/xjh22222228/tomato-work.git
+git clone --depth=1 https://github.com/liuzi6612/tomato-work.git
 
 cd server
 

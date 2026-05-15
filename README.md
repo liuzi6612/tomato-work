@@ -6,8 +6,8 @@
   <b>Tomato Work 个人事务管理系统</b>
   <p align="center">
     <a href="./server/"><img alt="Server" src="https://img.shields.io/static/v1.svg?label=&message=Server&style=flat-square&color=e8883a" /></a>
-    <img alt="React" src="https://img.shields.io/static/v1.svg?label=&message=React&style=flat-square&color=61daeb" />
-    <img src="https://img.shields.io/github/license/xjh22222228/tomato-work" />
+    <img alt="React" src="https://gcore.jsdelivr.net/gh/liuzi6612/public@gh-pages/work/9c44c509-71d7-4214-b280-d8fc786b5804.png" />
+    <img src="https://img.shields.io/github/license/liuzi6612/tomato-work" />
   </p>
 </p>
 
@@ -34,7 +34,7 @@
 **Node.js >= 22**
 
 ```bash
-$ git clone --depth=1 https://github.com/xjh22222228/tomato-work.git
+$ git clone --depth=1 https://github.com/liuzi6612/tomato-work.git
 
 $ pnpm i
 

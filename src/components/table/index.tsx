@@ -1,5 +1,5 @@
 /**
- * @author xiejiahe <xjh22222228@gmail.com>
+ * @author xiejiahe <liuzi6612@gmail.com>
  * @example:
  * <Table
  *   // 配置ref用于调用父组件方法获取数据
@@ -166,7 +166,7 @@ const TableFC: FC<Props> = ({
             render: (_: any, $: any, i: number) => i + 1,
             align: 'center',
           },
-        ].concat(columns as [])
+        ].concat(columns as []),
       }))
     }
   }, [columns])

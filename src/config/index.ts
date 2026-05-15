@@ -20,8 +20,8 @@ const CONFIG = {
     redirectUri: location.origin,
 
     // 可忽略，只是用于页面展示
-    repositoryUrl: 'https://github.com/xjh22222228/tomato-work',
-    bug: 'https://github.com/xjh22222228/tomato-work/issues',
+    repositoryUrl: 'https://github.com/liuzi6612/tomato-work',
+    bug: 'https://github.com/liuzi6612/tomato-work/issues',
   },
 }
 
