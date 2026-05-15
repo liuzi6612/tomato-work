@@ -1,4 +1,4 @@
-// Copyright 2018-present the xiejiahe. All rights reserved. MIT license.
+// Copyright 2018-present the liuzi6612. All rights reserved. MIT license.
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import userReducer from './userSlice'
 import systemReducer from './systemSlice'

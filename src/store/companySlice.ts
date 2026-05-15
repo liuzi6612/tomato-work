@@ -1,4 +1,4 @@
-// Copyright 2018-present the xiejiahe. All rights reserved. MIT license.
+// Copyright 2018-present the liuzi6612. All rights reserved. MIT license.
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { serviceGetAllCompany } from '@/services'
 

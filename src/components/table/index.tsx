@@ -1,5 +1,5 @@
 /**
- * @author xiejiahe <liuzi6612@gmail.com>
+ * @author liuzi6612 <liuzi6612@gmail.com>
  * @example:
  * <Table
  *   // 配置ref用于调用父组件方法获取数据
