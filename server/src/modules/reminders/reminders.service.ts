@@ -47,14 +47,16 @@ export class RemindersService {
   ): Promise<{ rows: Reminder[]; count: number }> {
     const startDate = getReminderDto.startDate
       ? dayjs(getReminderDto.startDate).valueOf()
-      : dayjs().startOf('year').valueOf()
+      : null
     const endDate = getReminderDto.endDate
       ? dayjs(getReminderDto.endDate).endOf('day').valueOf()
-      : dayjs().endOf('year').valueOf()
+      : null
 
     const where: Partial<Reminder> = {
       uid,
-      date: Between(startDate, endDate) as unknown as number,
+    }
+    if (startDate && endDate) {
+      where.date = Between(startDate, endDate) as unknown as number
     }
     const queryOptions: FindManyOptions = {
       where,
